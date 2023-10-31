@@ -44,7 +44,7 @@ console.log(twoSum([1, 2, 3, 4], 5));
 console.log(`Execution time →→→: ${executionTime} milliseconds ←←←`);
 
 // second way
-
+// this way not working
 const startTime2 = performance.now();
 function twoSum2(nums: number[], target: number): number[] {
   var firstNum = 0;
